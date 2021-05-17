@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../step 5"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "loop1"
+	}
+}

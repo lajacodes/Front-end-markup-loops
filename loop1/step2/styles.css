@@ -1,0 +1,104 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    padding-top: 10vh;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container {
+    background-color: white;
+    width: 30vw;
+    padding-top: 2rem;
+}
+
+header h1 {
+    text-align: center;
+}
+
+.option {
+    display: flex;
+    border-top: 1px solid lightgrey;
+    padding: 0 2rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.logo {
+    height: 2.5rem;
+    margin-right: 2rem;
+}
+
+button {
+    background: #5c8bdc;
+    border: none;
+    color: white;
+    height: 4rem;
+    /* display: block; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+}
+
+button span {
+    margin-right: 1rem;
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    background: #a9a8aa;
+    border-radius: 50%;
+    margin: 0 0.5em;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+}
+
+.two {
+    background: #dfdfdf;
+}
+
+.kick {
+    background: #dedede;
+}
+
+.tip {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 14rem;
+}
+
+.plum {
+    color: #c7c1bb;
+}
+
+.peep {
+    color: #c7c1bb;
+}
+
+.option:hover {
+    background-color: #f2f1f2;
+    cursor: pointer;
+}

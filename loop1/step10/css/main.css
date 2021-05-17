@@ -1,0 +1,115 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --header: #ffffff;
+    --fnav: #adabad;
+    --black: #363436;
+    --dred: #ea645c;
+    --quote: #a4a2a4;
+    --deep: #8a8a8b;
+}
+
+body {
+    justify-content: center;
+    width: 100vw;
+    align-items: 100vh;
+    position: relative;
+
+    overflow: hidden;
+}
+
+header {
+    background-color: #ffffff;
+    width: 115vw;
+    height: 100vh;
+    padding: 2.5rem 15rem;
+}
+
+.apple {
+    width: 1.8rem;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+}
+
+nav {
+    display: flex;
+    margin-left: 35rem;
+    position: relative;
+
+}
+
+a {
+    text-decoration: none;
+    color: #adabad;
+    padding: 0 1rem;
+    margin-top: 1.4rem;
+    font-size: 1rem;
+}
+
+.icon:hover {
+    color: #363436;
+    cursor: pointer;
+    border-bottom: 1px solid #8a8a8b;
+    height: 25px;
+}
+
+p {
+    margin-top: 8rem;
+    font-weight: bolder;
+    font-size: 2.8rem;
+}
+
+.quote {
+    color: #b6b5b5;
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    margin-top: -6.8rem;
+}
+
+.long {
+    background-color: #999999;
+    width: 2px;
+    height: 7rem;
+}
+
+.box {
+    background-color: #ea645c;
+    width: 10.5rem;
+    height: 2.2rem;
+    padding-left: 15px;
+    margin-top: 2.8rem;
+}
+
+.yup {
+    padding: 12px 3px;
+    color: #ffffff;
+}
+
+.watch {
+    width: 35rem;
+    position: absolute;
+    top: 120px;
+    right: -260px;
+}
+
+.box:hover {
+    cursor: pointer;
+}
+
+input.field {
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #8a8a8b;
+    height: 25px;
+}

@@ -1,0 +1,165 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #bfd1e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+.container {
+    background-color: #ffffff;
+    width: 25vw;
+    height: 62vh;
+    margin-top: 10rem;
+}
+
+.dot {
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    width: 6px;
+    height: 6px;
+    margin-left: 30px;
+}
+
+.option {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    background-color: #6a96d8;
+    justify-content: space-around;
+}
+
+.kik {
+    margin-right: 20px;
+}
+
+header h5 {
+    margin-left: 1rem;
+    font-size: 14.5px;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+}
+
+.option-text {
+    align-self: flex-start;
+}
+
+.wed {
+    color: #e5e6e6;
+    text-align: center;
+    /* border-bottom: 1px solid #e5e6e6; */
+    font-size: 12px;
+}
+
+.upper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    align-items: center;
+}
+
+.ted,
+.sid {
+    width: 10rem;
+    border-bottom: 2px solid #e5e6e6;
+}
+
+.tym1 {
+    color: lightgray;
+    margin: auto;
+    margin-left: 1rem;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.test {
+    background: #e6edf6;
+    width: 18rem;
+    height: 4rem;
+    padding: 0.3rem;
+    margin-left: 1rem;
+    padding-left: 0.5rem;
+
+}
+
+.tym2 {
+    color: lightgray;
+    text-align: end;
+    padding-right: 0.9rem;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.test2 {
+    background: #f2f2f2;
+    margin-top: -1rem;
+    height: 4rem;
+    padding: 0.2rem;
+    width: 21rem;
+    margin-left: 4.5rem;
+    padding-left: 0.5rem;
+}
+
+.tym3 {
+    color: lightgray;
+    padding-left: 1rem;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.test3 {
+    background: #e6edf6;
+    margin-top: -1.3rem;
+    width: 5.5rem;
+    height: 2.8rem;
+    padding-left: 0.5rem;
+    padding-top: 0.1rem;
+    margin-left: 1rem;
+}
+
+.red {
+    background: #ffc3c1;
+    height: 2.8rem;
+    width: 15rem;
+    margin-left: 10rem;
+    padding-left: 0.5rem;
+    padding-top: 0.1rem;
+    margin-top: 2rem;
+}
+
+.icon {
+    border-bottom: 2px solid #e5e6e6;
+    margin: 0 20px;
+    margin-top: 1.5rem;
+}
+
+.enter {
+    display: flex;
+    justify-content: space-around;
+}
+
+.rid {
+    color: #b1a89f;
+    padding-right: 9rem;
+    font-style: initial;
+    font-size: rem;
+
+}
+
+.send {
+    color: #729ad8;
+    letter-spacing: 1px;
+}
